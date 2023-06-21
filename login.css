@@ -1,0 +1,116 @@
+html {
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: none;
+  border-radius: 20px;
+}
+
+.card {
+  width: 950px;
+  height: 564px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 450px;
+  height: auto;
+}
+
+.card-form-color {
+  background: linear-gradient(15deg, #4c00ff, #c8aadd);
+  border-radius: 10px;
+  color: white;
+}
+
+.h1-padding {
+  padding-top: 3%;
+}
+
+h1,
+h2,
+h5,
+p,
+a {
+  text-shadow: 3px 2px 2px rgb(95, 95, 95);
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5 {
+  padding-left: 2%;
+}
+
+.button1 {
+  width: 100%;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+}
+
+.signin {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+
+.midbtn {
+  width: 45%;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 4%;
+}
+
+.midbtn:hover {
+  background: #4297e7;
+  color: white;
+  border: 1px solid white;
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+}
+
+.signin:hover {
+  background: #f1f1f1;
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #74b0e9;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .midbtn {
+    width: 100%;
+  }
+}
+
+
