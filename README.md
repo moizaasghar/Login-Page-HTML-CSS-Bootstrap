@@ -30,6 +30,7 @@ To use the login page in your project, follow these steps:
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 
 6. Link your CSS file to the HTML file by adding the following line within the `<head>` section of your HTML file:
